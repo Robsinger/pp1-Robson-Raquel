@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: "fonteLogin";
+    src: url(fontes/Akshar-VariableFont_wght.ttf);
+}
+p{
+    font-size: 1.4em;
+}
+IMG.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+body {
+    font-family: "fonteLogin";
+    background-color: #2A4494;
+}
+input[type=email] {
+    width: 300px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  input[type=password] {
+    width: 300px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(0, 0, 0);
+  }
+#entrar{
+    background-color: rgb(18,23,115);
+    color:#ffff;
+    border-style: unset;
+    font-size: 20px;
+    margin-left: 110px; 
+    padding: 8px 20px;
+    padding-left: 125px;
+    padding-right: 125px;
+    margin: auto;
+
+}
+
+#login{
+    text-align: center;
+}
+
+#formulario{
+    margin-left: 40%; margin-right: 40%; 
+    margin-top: 3%;   
+    
+}
+fieldset{
+    background-color:#ffff;
+    border-radius: 10px;
+    border-style: unset;
+}
+.submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(18,23,115);
+    color:#ffff;
+    border-style: unset;
+    border-radius: 5px;
+    font-size: 70%;
+    padding: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
+
+}
+
+ 
